@@ -206,7 +206,7 @@ section {
 
 /* ICONS */
 
-.icon {
+/* .icon {
   cursor: pointer;
   width: 33px;
   height: 33px;
@@ -215,6 +215,18 @@ section {
   cursor: pointer;
    width: 33px;
   height: 33px;
+  background-color: black;
+  border-radius: 50%;
+} */
+
+.icon {
+  cursor: pointer;
+  width: 33px;
+  height: 33px;
+}
+
+/* Add this new class for the LeetCode icon specifically */
+.icon[src*="leetcode"] {
   background-color: black;
   border-radius: 50%;
 }
