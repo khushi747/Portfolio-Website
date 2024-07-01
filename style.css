@@ -211,8 +211,6 @@ section {
   height: 2rem;
 }
 .icon-leetcode {
-  cursor: pointer;
-  height: 2rem;
   background-color: black;
   border-radius: 50%;
 }
@@ -331,7 +329,7 @@ section {
 }
 .section-container {
   gap: 1rem;
- }
+}
 
 .section__pic-container {
   height: 400px;
@@ -378,7 +376,7 @@ article {
   /* justify-content: space-around; */
   gap: 0.5rem;
 }
-.pro-img{
+.pro-img {
   height: 250px;
 }
 article .icon {
